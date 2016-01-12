@@ -1,3 +1,3 @@
 school_id,student_id,first_name,last_name,grade_level,user_name,password
-SFAI,0029750,John,Smith,MFA.SA,jsmith_example,$f0029750
-SFAI,0130350,Jenny,Smitheroo,MFA.SA,jsmitheroo_example,$f0130350
+SFAI,0029750,John,Smith,MFA.SA,jsmith_example,passy_pass
+SFAI,0130350,Jenny,Smitheroo,MFA.SA,jsmitheroo_example,pass_pass2
