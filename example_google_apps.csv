@@ -1,0 +1,3 @@
+school_id,student_id,first_name,last_name,grade_level,user_name,password
+school,6929750,John,Smith,MFA.SA,jsmith_example,passy_pass
+school,6130350,Jenny,Smitheroo,BFA.SA,jsmitheroo_example,pass_pass2
