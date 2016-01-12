@@ -4,7 +4,7 @@ def create_lists(csv_file):
 	with open(csv_file, 'rU') as f:
 		reader = csv.reader(f, delimiter= ',')
 		for row in reader:
-			#get grade level initial from col 4 (BA, BFA, MFA, etc.)
+			#get grade level initials from col 4 (BA, BFA, MFA, etc.)
 			grade_level = row[4].split('.')
 			#concatenate first and last name from col 2 and 3
 			name = row[2] + " " + row[3]
