@@ -14,6 +14,7 @@ def create_lists(csv_file):
 			full_info = email + " " + name + '\n'
 			#creates a txt file named whatever grade_level in that row is, i.e. BA.txt
 			text_file = grade_level[0] + ".txt"
+			#prevent creating a file based on csv header 'grade_level'
 			if grade_level[0] == 'grade_level':
 				continue			
 			#writes to a text file named grade_level, the email adress and full name for that row
